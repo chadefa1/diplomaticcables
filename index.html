@@ -3,7 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Unified Diplomatic Cables — Data Browser</title>
+    <title>Diplomatic Archives</title>
+    <meta name="description" content="Diplomatic Archives: an open, searchable dataset of edited diplomatic correspondence across countries with filtering and exports." />
+    <meta property="og:title" content="Diplomatic Archives" />
+    <meta property="og:description" content="Explore edited diplomatic documents across France, the UK, and Germany; filter, read, and export." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/topSecret.png" />
     <link rel="stylesheet" href="styles.css" />
     <style>
       .hero {
@@ -11,8 +16,9 @@
         color: #fff; text-align: center; background: #0b1022;
       }
       .hero::before {
-        content: ""; position: absolute; inset: 0; background: url('assets/topSecret.png') center/cover no-repeat; opacity: 0.28; filter: blur(1px);
+        content: ""; position: absolute; inset: 0; background: url('assets/topSecret.png') center/cover no-repeat; opacity: 0.32; filter: blur(0.5px);
       }
+      .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,16,34,0.55), rgba(11,16,34,0.75)); }
       .hero .inner { position: relative; max-width: 900px; padding: 48px 24px; }
       .hero h1 { margin: 0 0 10px 0; font-size: 36px; letter-spacing: 0.4px; }
       .hero p { margin: 6px 0 18px 0; font-size: 16px; opacity: 0.95; }
@@ -28,7 +34,7 @@
   </head>
   <body>
     <header class="site-header">
-      <h1>Unified Diplomatic Cables</h1>
+      <h1>Diplomatic Archives</h1>
       <div class="meta">An open, searchable dataset of edited diplomatic correspondence</div>
       <nav class="nav">
         <a href="browse.html">Browse</a>
@@ -38,7 +44,7 @@
     <section class="hero">
       <div class="inner">
         <h1>Explore diplomatic cables across countries and years</h1>
-        <p>France, the United Kingdom, and Germany — unified, searchable, and ready to explore. Filter by corpus and document type, view “from → to”, and export your results.</p>
+        <p>Edited diplomatic documents from France, the United Kingdom, and Germany — unified, searchable, and ready to explore. Filter by corpus and document type, view “from → to”, and export your results.</p>
         <div class="cta">
           <a href="browse.html">Browse Data</a>
           <a class="secondary" href="data/diplomatic_cables_v0_1.jsonl">Download PoC JSONL</a>
