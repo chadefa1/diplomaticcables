@@ -3,17 +3,18 @@
   --bg2: #ffffff;
   --fg: #0c1222;
   --fg-dim: #4f5b78;
-  --accent: #1155cc;
+  --accent: #0f62fe;
   --muted: #dfe6f3;
   --chip: #eef2fb;
+  --shadow: 0 4px 14px rgba(15,34,67,0.1);
 }
 * { box-sizing: border-box; }
 body {
-  margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
   background: var(--bg); color: var(--fg);
 }
 .site-header {
-  padding: 16px 20px; border-bottom: 1px solid var(--muted); background: var(--bg2);
+  padding: 16px 20px; border-bottom: 1px solid var(--muted); background: var(--bg2); position: sticky; top: 0; z-index: 60;
 }
 .site-header h1 { margin: 0 0 6px 0; font-size: 18px; }
 .site-header .meta { color: var(--fg-dim); font-size: 12px; }
@@ -40,7 +41,7 @@ body {
 .year-readout { color: var(--fg-dim); font-size: 12px; }
 .hint { color: var(--fg-dim); font-size: 12px; margin-top: -6px; margin-bottom: 8px; }
 .content { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.list-pane { background: var(--bg2); border: 1px solid var(--muted); border-radius: 8px; overflow: hidden; }
+.list-pane { background: var(--bg2); border: 1px solid var(--muted); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); }
 .summary-bar { display: flex; align-items: center; justify-content: space-between; padding: 8px 10px; border-bottom: 1px dashed var(--muted); gap: 10px; }
 .summary-bar .pills { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .summary-pill { font-size: 12px; padding: 4px 8px; border-radius: 999px; border: 1px solid var(--muted); background: var(--chip); }
@@ -52,9 +53,12 @@ body {
 .chip button { background: transparent; border: none; cursor: pointer; font-size: 14px; line-height: 1; color: #4f5b78; }
 .list-meta { padding: 8px 10px; border-bottom: 1px solid var(--muted); display: flex; align-items: center; justify-content: space-between; color: var(--fg-dim); font-size: 12px; gap: 10px; }
 .list-meta .actions { display: flex; gap: 8px; }
-.btn { background: var(--chip); color: var(--fg); border: 1px solid var(--muted); padding: 6px 10px; border-radius: 6px; cursor: pointer; font-size: 12px; }
+.btn { background: var(--chip); color: var(--fg); border: 1px solid var(--muted); padding: 6px 10px; border-radius: 6px; cursor: pointer; font-size: 12px; transition: all .15s ease; }
+.btn:hover { box-shadow: var(--shadow); transform: translateY(-1px); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.secondary { background: #f7fbff; border-color: #cfe2ff; color: #0b3d91; }
 table.results { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
-table.results thead { position: sticky; top: 110px; z-index: 10; background: #f2f6ff; color: #2c3d67; }
+table.results thead { position: sticky; top: 110px; z-index: 10; background: #eef4ff; color: #2c3d67; box-shadow: 0 2px 0 rgba(0,0,0,0.02); }
 table.results th, table.results td { padding: 10px 12px; border-bottom: 1px solid var(--muted); vertical-align: top; }
 table.results th.sortable { cursor: pointer; user-select: none; }
 table.results tbody tr { cursor: pointer; }
@@ -67,7 +71,7 @@ table.results tbody tr:hover { background: #f2f8ff; }
 .badge.corpus-de { background: #e6f6ec; border-color: #c3ebd1; color: #155e2f; }
 .badge.type { background: #fff7e5; border-color: #ffe2a8; color: #7a4a00; }
 .empty { color: var(--fg-dim); padding: 12px; }
-.detail-pane { background: var(--bg2); border: 1px solid var(--muted); border-radius: 8px; padding: 12px; min-height: 240px; }
+.detail-pane { background: var(--bg2); border: 1px solid var(--muted); border-radius: 10px; padding: 12px; min-height: 240px; box-shadow: var(--shadow); }
 .detail-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
 .detail-title { font-weight: 600; font-size: 16px; color: #0c1222; }
 .detail-actions { display: flex; gap: 8px; }
