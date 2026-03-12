@@ -16,10 +16,10 @@
         color: #fff; text-align: center; background: #0b1022;
       }
       .hero::before {
-        content: ""; position: absolute; inset: 0; background: url('assets/topSecret.png') center/cover no-repeat; opacity: 0.22; filter: blur(0.5px);
+        content: ""; position: absolute; inset: 0; background: url('assets/topSecret.png') center/cover no-repeat; opacity: 0.22; filter: blur(0.5px); pointer-events: none;
       }
-      .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,16,34,0.20), rgba(11,16,34,0.40)); }
-      .hero .inner { position: relative; max-width: 900px; padding: 48px 24px; }
+      .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,16,34,0.20), rgba(11,16,34,0.40)); pointer-events: none; }
+      .hero .inner { position: relative; z-index: 1; max-width: 900px; padding: 48px 24px; }
       .hero h1 { margin: 0 0 8px 0; font-size: 40px; letter-spacing: 0.3px; }
       .hero p.subtitle { margin: 0 0 14px 0; font-size: 18px; opacity: 0.98; }
       .hero p { margin: 6px 0 18px 0; font-size: 16px; opacity: 0.95; }
