@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unified Diplomatic Cables — PoC Browser (v0.1)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Unified Diplomatic Cables — Browser</h1>
+      <div class="meta">v0.1 • CC0 data • FR + UK + DE sample</div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="controls">
+        <label>
+          <span>Search</span>
+          <input id="q" type="search" placeholder="Search text, date, type, from/to..." />
+        </label>
+        <div class="selects">
+          <label>
+            <span>Corpus</span>
+            <select id="corpus-select" multiple>
+              <option value="fr" selected>FR</option>
+              <option value="uk" selected>UK</option>
+              <option value="de" selected>DE</option>
+            </select>
+          </label>
+          <label>
+            <span>Type</span>
+            <select id="type-select" multiple>
+              <option selected>letter</option>
+              <option selected>telegram</option>
+              <option selected>despatch</option>
+              <option selected>memorandum</option>
+              <option selected>circular</option>
+              <option selected>enclosure</option>
+              <option selected>report</option>
+              <option selected>note</option>
+            </select>
+          </label>
+        </div>
+        <div class="hint">Tip: Hold Cmd (Mac) or Ctrl (Windows/Linux) to select multiple.</div>
+      </section>
+
+      <section class="content">
+        <div class="list-pane">
+          <div class="list-meta">
+            <div><span id="count">0</span> records</div>
+            <div class="actions">
+              <button id="sort-date" class="btn">Sort by year ▲</button>
+              <button id="reset" class="btn">Reset Filters</button>
+              <button id="export-csv" class="btn">Export CSV</button>
+              <button id="export-json" class="btn">Export JSON</button>
+            </div>
+          </div>
+          <table class="results" id="results">
+            <thead>
+              <tr>
+                <th>corpus</th>
+                <th class="sortable" data-sort="date">date</th>
+                <th>doc_type</th>
+                <th>from</th>
+                <th>to</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <aside class="detail-pane" id="detail">
+          <div class="placeholder">Select a row to view details</div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        Data © CC0 1.0 • Code MIT/Apache-2 (repo). Built from PoC sample.
+      </div>
+      <div>Dataset: <code>data/diplomatic_cables_v0_1.jsonl</code></div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+  </html>

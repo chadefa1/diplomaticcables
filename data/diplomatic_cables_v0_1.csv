@@ -1,0 +1,1208 @@
+doc_uid,doc_id,corpus,series,volume_id,doc_number,date,date_precision,place,language,doc_type,sender_raw,recipient_raw,text,source_ref,source_url,sender_norm,recipient_norm,sender_role,recipient_role,classification_level,word_count,notes,source_page,source_docid,cls_crisis,cls_coordination,cls_legal,cls_routine,cls_strategic,cls_annual,cls_ceremonial,cls_source,cls_version,embedding_model,embedding_dim,embedding_vector
+870423c7-561c-502e-b57e-f5066c147473,fr-ddf-73ec1e24-6a9b-4cb1-9cdf-e19d884fda57,fr,ddf,,,1871-02-26,day,,fr,letter,,,"(L. S.) BARON DE WAECHTER. (1) Remises le 13 juillet par le Chargé d'affaires d'Allemagne. Un traité ayant été conclu à Versailles, le 29 juin dernier, entre le plénipotentiaire de Sa Majesté l'Empereur d'Allemagne et le plénipotentiaire du Président de la République française, relativement au payement de l'indemnité de guerre de la France et à l'évacuation des départements français occupés par l'Allemagne, le Ministère d'État grand-ducal, soussigné, après y avoir été autorisé par Son Altesse Royale le Grand-Duc, déclare que le Gouvernement du Grand-Duché de Bade donne son adhésion à ce traité. En foi de quoi a été délivrée la présente déclaration. Carlsruhe, le 2 juillet 1872. (L. S.) JOLLY. 143.",DDF,,,,,,,111,,,73ec1e24-6a9b-4cb1-9cdf-e19d884fda57,0,0,1,0,0,0,0,claude-sonnet-3.5-batch,v1,,,
+377ede6d-2605-59f8-9309-7228313ac798,fr-ddf-7ba95da2-4577-472e-9d62-f0720e777aa3,fr,ddf,,,1871-02-26,day,,fr,despatch,,,"D. La Haye, (juillet 1872). Conformément au désir exprimé dans votre office du 22 juin dernier, le Gouvernement français a pris connaissance de la convention concernant l'exploitation des chemins de fer luxembourgeois, qui a été signée à Berlin le 11 juin 1872 (1) entre le Grand-Duché de Luxembourg et l'Allemagne et dont le texte était joint à votre communication. J'ai l'ordre de déclarer à Votre Excellence que mon Gouvernement n'a aucune observation à présenter sur les stipulations relatives à la neutralité des chemins de fer du Grand-Duché et qu'il considère que les engagements contractés par les Puissances signataires du traité de Londres du 11 mai 1867 ne sauraient être modifiés par les arrangements particuliers intervenus entre le Luxembourg et l'Empire allemand (2). (1) Voir ci-dessus, pièces nos 117 et 135. (2) Le texte de la présente note avait été transmis du ministère des Affaires étrangères à M. de Gabriac, à la date du 12 juillet. Le 11 juillet, M. de Rémusat, qui avait demandé à Londres ce que comptait faire l'Angleterre qui avait reçu également du Luxembourg noti- fication de la conclusion de la convention du 11 juin, avait reçu pour réponse que le gouver- nement anglais considérait <U+201F> les dispositions adoptées pour la neutralité des chemins de fer en cas de guerre comme conformes aux principes de neutralité du traité de 1867”. L'Angleterre ajoutait : <U+201F> Cette manière de traiter de l'administration des chemins de fer dans un pays neutre ne doit pas faire un précédent pour l'avenir”. 144.",DDF,,,,,,,250,,,7ba95da2-4577-472e-9d62-f0720e777aa3,0,0,1,0,0,0,0,claude-sonnet-3.5-batch,v1,,,
+151d8f51-46f6-5d37-a386-f28eab5041ee,uk-bd-a7a03311-8a9f-4a71-b62c-fa46d942ed68,uk,bd,,,,unknown,,en,telegram,,,"Sir N. O'Conor to the Marquess of Salisbury.
+
+St. Petersburgh, January ’20, 1898.
+
+F.O. Russia 1559. D. 3 p.m.
+
+Tel. (No. 10.) Secret. E. 940 p.m.
+
+I spoke to Count Mouraview yesterday in the sense of your Lordship’s telegram No. 7 Secret of the 17th instant, and he responded more favourably even than I expected. He said he -entirely shared your views on the subject and that he was sure his sovereign did so likewise, but he would without delay report my language to His Imperial Majesty. I laid stress on the favourable current to Russia now existing in England, and I said that I thought any understanding, to be really effective and lasting, ought to extend to the general area of our respective interests, and not to be confined to the important questions affecting the Far East. Count Mouraview agreed in this and said he was ready to consider at once any proposal which would bring about a closer understanding ( entente ) between the'two countries, and he begged me to telegraph this to your Lordship. He suggested that Her Majesty’s Government should formulate their views. I was not sure whether your Lordship would care to do this, and, on my hinting that perhaps it would be better that he should do so. he replied that he saw no objection. All the same I doubt his taking the initiative, and for many reasons I think that it would be well if you sent me the general lines on which to work, and that we should try and bring the Russian Government up to them. He spoke in detail of Russian sphere of influence in China, which was practically all northern China from Tientsin to Peking, Peking to Manchuria. He said that new Minister of War ? [sic] General
+
+Kuropatkin was of opinion that an understanding with England was quite practicable, and on my referring to information I had received that the railway from Niero to Kushik was being [sic] pressed with great vigour, he said that if
+
+we came to an understanding this railway would be a trans-continental line to India, beneficial to both countries. He thought our conversation to-day most important, and a friendly exchange of general views was the best way to open the question, and as soon as I heard from your Lordship and he had spoken to the Emperor we could resume the conversation. I suggested that probably the question would progress better if the negotiations were conducted between your Lordship and M. de Staal, but he said it was important to him to be near the Winter Palace, and he would prefer to carry them on f?here). He was quite ready to put his cards on the table, if your Lordship would do the same. As I stood up to leave he referred to some remarks I had made to him the other day about the continued hostile language of the Russian Press towards us, and said that he would take steps to alter its tone. The information I have received since mv return leads to the opinion that (? Russian Government) and particularly the Emperor are greatly afraid of complications arising before the Siberian railway is completed, and that in so far [as?] the moment is opportune for an amicable arrangement in regard to our respective interests in China and elsewhere. At the same time it becomes the more important to take care that any understanding we may come to gives no such headway that it cannot be set aside when it may seem to Russia to have served its temporary purpose.",BD,,,,,,,599,,,a7a03311-8a9f-4a71-b62c-fa46d942ed68,0,1,0,0,1,0,0,claude-sonnet-3.5-batch,v1,,,
+48f16961-accb-5996-9f19-76533bbe6d92,uk-bd-ee2b3b84-5642-46b4-ae75-00f0dfe1b915,uk,bd,,,,unknown,,en,telegram,,,"The Marquess of Salisbury to Sir N. O'Conor.
+
+F.O. Russia 1557. Foreign Office, January 25, 189S
+
+Tel. (No. 22.) Secret. D. 2 p.m.
+
+Our idea was this. The two Empires of China and Turkey are so weak that in all important matters they are constantly guided by the advice of Foreign Powers. In giving this advice Russia and England are constantly opposed, neutralizing each other’s efforts much more frequently than the real antagonism of their interests would justify; and this condition of things is not likely to diminish, but to increase. It is to remove or lessen this evil that we have thought than an understanding with Russia might benefit both nations.
+
+We contemplate no infraction of existing rights. We would not admit the violation of any existing treaties, or impair the integrity of the present empires of either China or Turkey. These two conditions are vital. We aim at no partition of territory, but oniv a partition of preponderance. It is evident that both in respect to Turkey and China there are large portions which interest Russia much more than England and vice versa. Merely as an illustration, and binding myself to nothing, I would say that the portion of Turkey which drains into the Black Sea, together with the drainage valley of the Euphrates as far as Bagdad, interest Russia much more than England : whereas Turkish Africa, Arabia, and the Valley of the Euphrates below Bagdad interest England much more than Russia. A similar distinction exists in China between the Valley of the Iloango with the territory north of it and the Valley of the Yangtze.
+
+Would it be possible to arrange that where, in regard to these territories our counsels differ, the Power least interested should give way to and assist the other? I do not disguise from myself that the difficulty would be great. Is it insuperable? I have designedly omitted to deal with large tracts in each Empire, because neither Power has shown any keen interest in them.",BD,,,,,,,334,,,ee2b3b84-5642-46b4-ae75-00f0dfe1b915,0,1,0,0,1,0,0,claude-sonnet-3.5-batch,v1,,,
+db05e34b-8c68-59cb-8e6b-b1341e55942a,de-gp-diegrossepolitik0031joha:x,de,gp,,,,unknown,,de,letter,,,"ys 
+
+
+JACKSON LIBRARY-UNCG 
+
+
+“Ww 
+
+
+The Woman’s College of 
+University of North Carolina 
+
+
+The LIBRARY 
+
+
+PRINTED] IN U.S. A, 
+
+
+Die 
+Diplomatischen Akten 
+des Auswartigen Amtes 
+
+
+1871-1914 
+
+
+Herausgegeben 
+im Auftrage des Auswiartigen Amtes 
+
+
+ert eae s wr Eers 
+
+
+Digitized by the Internet Archive 
+in 2025 
+
+
+https://archive.org/details/diegrossepolitik0031joha 
+
+
+D> 
+Bit Die 
+
+
+C 
+
+
+“>\ Grosse Politik der 
+Europaischen Kabinette 
+IS7I-1914 
+
+
+Sammlung der Diplomatischen 
+Akten des Auswartigen Amtes 
+
+
+Im Auftrage des Auswartigen Amtes 
+herausgegeben von 
+
+
+Johannes Lepsius -F 
+Albrecht Mendelssohn Bartholdy 
+Friedrich Thimme 
+
+
+I 9 2 6 
+
+
+DEUTSCHE VERLAGSGESELLSCHAFT FUR POLITIK 
+UND GESCHICHTE M.B.H. IN BERLIN W 8 
+
+
+31. Band 
+
+
+Das Scheitern der 
+Haldane-Mission und 
+ihre Ruckwirkung aul 
+
+die Tripelentente 
+I91I-1912 
+
+
+I 9 me 6 
+
+
+DEUTSCHE VERLAGSGESELLSCHAFT FUR POLITIK 
+UND GESCHICHTE M.B.H. IN BERLIN W 8 
+
+
+1. Auflage 
+
+
+Alle Rechte, besonders das der Ubersetzung, vor- 
+behalten / Fir RuBland auf Grund der deutsch- 
+russischen Ubereinkunft / Amerikanisches Co- 
+pyright 1926 by Deutsche Verlagsgesellschaft 
+fiir Politik und Geschichte m.b.H. in Berlin 
+W 8, Unter den Linden 17/18 / Amerikanische 
+Schutzzollformel: Made in Germany / Gesetzt 
+und gedruckt in der Buchdruckerei F. E. Haag 
+in Melle i. H. 
+
+
+~ 
+
+
+\ ani pas elke tan sell vet ee oes 
+\ 
+
+
+Inhaltsiibersicht des einunddreiBigsten Bandes 
+
+
+KAPITEL CCXLI 
+Die Frage der Deutschen Flottenverstarkung. September 1911 
+PMC RPial 1 Ol 28ers teehee STN re oF Oe ae 1 
+KAPITEL CCXLII 
+Deutsch-Englische Erérterungen iiber ein Kolonialabkommen. _ 
+Berembper 101 le bisslaniare lOV2 ct. 8 ve wkle ss whe « Gees 69 
+KAPITEL CCXLII 
+
+
+Die Mission Lord Haldanes nach Berlin und ihre Nachklange. Das 
+Scheitern der Deutsch-Englischen Verstandigung. Januar bis 
+
+
+Me, rr Dire im Nw dun « peint uae ee oe 95 
+Anhang: Die Abberufung Graf Metternichs aus London. Frei- 
+herr von Marschall als Botschafter in England............ 229 
+
+
+KAPITEL CCXLIV 
+Weitere Verhandlungen iiber ein Kolonialabkommen. Marz bis 
+RAGAN 2 vies edt eet Oa nee oe ys ess La Fie wo ROS 253 
+KAPITEL CCXLV 
+
+
+Verhandlungen iiber die Bagdadbahn. Marz 1911 bis August 1912 307 
+Anhang: Franzésische Aspirationen in den Tiirkischen Eisen- 
+Danniragen.. Marz biseAuoust 1911000. eee nee es 347 
+
+
+KAPITEL CCXLVI 
+Das Kabinett Poincaré und die Deutsch-Franzdsischen Bezie- 
+hungen. Poincaré, Millerand und Réveil National. Januar 1912 
+Dis Famiiar lO ge. oii /s gir ernie. + «whee 1 es Lae Pe eos yore 379 
+KAPITEL CCXLVII 
+Die Entrevue von Baltischport. Juli 1912.............e- ss eee, 425 
+KAPITEL CCXLVIII 
+
+
+Die Befestigung der Tripelentente. Englisch-Franzésische ,,Naval- 
+Conversation’’. Russisch-Franzésische Marinekonventionen. No- 
+vemier 101 pist Oktober LOle) .. ciisies ok ee ee vee veces 455 
+
+
+Ein Namenverzeichnis fiir die Bande XXVI—XXXVII erscheint am 
+Schlusse des XXXVII. Bandes; ein ausfiithrliches Namen- und Sach- 
+verzeichnis zum Schlusse des gesamten Werkes 
+
+
+(OUP: = 
+nA A oe arc 4 e thet a2 wi CO 
+
+
+_ “vay - : oa 
+ete: Se 
+
+
+ie, 
+
+
+7 
+
+
+a 48 At 
+EES Sat ws | 
+
+
+Kapitel CCXLI 
+
+
+Die Frage der deutschen Flottenverstérkung 
+September 1911 bis Februar 1912 
+
+
+1 Die GroBSe Politik. 31. Bd. 
+
+
+we 
+
+
+nA 
+Sa) 
+mater 
+
+
+. ‘ 
+ole pe 
+
+
+se Paes 
+aa a 
+7h ty | uP 
+
+
+ar 
+ek 
+
+
+- 
+
+
+Nr. 11307 
+
+
+Der Botschafter in London Graf von Metternich an den 
+Reichskanzler von Bethmann Hollweg 
+
+
+Ausfertigung 
+Nr. 616 London, den 30. August 1911 
+
+
+Der ,,Daily Graphic‘’ beschaftigt sich heute an leitender Stelle 
+mit der die Frage der deutschen Seemacht streifenden Rede Seiner 
+Majestat des Kaisers und K6nigs in Hamburg*. Diese Rede miisse 
+
+
+* Am 27. August 1911 hatte Kaiser Wilhelm II. beim Festmahl des Hamburger 
+je ROS mes Trinkspruch auf die Hansestaédte ausgebracht, in dessen Verlauf 
+es hieB: 
+
+»Der Schutz fiir Handel und Seefahrt ist durch das deutsche Volk in den 
+letzten Jahrzehnten geschaffen worden in der miachtig sich entwickelnden und 
+allerwarts durch ihre Manneszucht und Disziplin sich auszeichnenden deutschen 
+Kriegsflotte. Sie ist es, welche den Willen des deutschen Volkes zur Seegeltung 
+darstellt. Diese noch aufbliihende junge Flotte erfreut sich ganz besonders des 
+Interesses der Hamburger. Wenn anders ich den Ausdruck der Begeisterung 
+der Hamburger richtig verstanden habe, so glaube ich annehmen zu k6énnen, 
+daB es ihre Ansicht ist, unsere Flotte auch fiirderhin zu verstarken, so daB 
+wir sicher sein kénnen, daB uns niemand den uns zustehenden Platz an der 
+Sonne streitig machen werde.“ 
+
+Uber den Sinn dieser Worte hub in der deutschen Presse ein grofes 
+Ratselraten an. In verschiedenen Blattern wurde aus ihnen die Absicht ab- 
+geleitet, iiber kurz oder lang dem Reichstage mit einem neuen Flottengesetz 
+zu kommen, das eine Vermehrung der Flotte iiber den bestehenden Rahmen 
+hinaus involviere. DaS der Kaiser tatsachlich mit seinen Worten einen solchen 
+Sinn verband, geht aus Randbemerkungen hervor, die er zu einem Artikel der 
+,Frankfurter Zeitung’ vom 29. August ,,Die Hamburger Kaiserrede“ machte. 
+Der Deutung der ,,Frankfurter Zeitung“‘, daB der Kaiser nicht an eine Durch- 
+brechung des Flottengesetzes gedacht habe, setzte dieser die Worte entgegen: 
+,Unsinn! Ich habe ganz bestimmt die Kreuzernovelle im Auge, den Ersatz 
+jHansa‘ fiir die Schulschiffe!‘‘ Auch sonst liegen mancherlei kaiserliche Rand- 
+bemerkungen zu Zeitungsartikeln aus dieser Zeit vor, aus denen hervorgeht, 
+daB der Monarch, der durch die Haltung Englands in der Marokkokrise und 
+insbesondere durch die Rede Lloyd Georges vom 21. Juli in starke Erregung’ 
+gesetzt war und dieser Erregung in seiner Unterredung mit dem englischen Bot- 
+schafter Sir Edward Goschen am 12. August (vgl. dariiber Bd. XXIX, Kap. 
+CCXXIX, Nr. 10639) offen Ausdruck verliehen hatte, sich mit dem Plane einer 
+Vermehrung der Flotte, und zwar zunachst der Kreuzer, trug. So schrieb der 
+Kaiser am Schlu8 eines ,,Times“-Artikels vom 18. August, der angesichts des 
+AufeinanderstoBens der englisch-russischen Interessen in Persien eine nachgiebige 
+
+
+3 
+
+
+1* 
+
+
+einen bedauerlich iiberraschenden Eindruck in England hervorrufen. 
+Man kénne nicht anders, als die Rede dahin auszulegen, daB nach Be- 
+endigung der Geltungsdauer des Flottengesetzes neue gesetzgebe- 
+rische MaBnahmen von seiten Deutschlands zu erwarten seien, die 
+ein weiteres ,,Rennen“ der beiden Staaten im Flottenbau zur Folge 
+
+
+haben werden. 
+Im Dezember vorigen Jahres habe der Herr Reichskanzler ge- 
+
+
+wisse Hoffnungen auf eine Verstandigung beider Lander in der 
+Flottenbaufrage erweckt. Was sei seitdem geschehen, das den fried- 
+
+
+Haltung Englands empfahl, die Worte nieder: ,,Dieser Artikel soll aufgehoben 
+werden um bei passender Gelegenheit, falls mal Dissensionen zw[ischen] uns und 
+England in irgend einer Frage entstehen, England vorzuhalten, wie es Meinungs- 
+verschiedenheiten zu behandeln pflegen sollte auch uns gegeniiber. Ein solcher 
+Ton wie der obige, laBt sich erst durch eine noch starkere Flotte erreichen, 
+vor der positive Angst die Briten zur Verstandigung bringt! Gerade so wie 
+hier die Angst vor RuBland wegen Indien. Daher miissen wir die Kreuzer 
+der Hansaclasse durch eine Novelle jetzt zum Ersatz bringen! Fir jedes 
+Jahr einen!“ Vgl. dazu die Angaben bei A. v. Tirpitz, Der Aufbau der deut- 
+schen Weltmacht, S. 200ff., aus denen hervorgeht, daB der GroBadmiral der 
+eigentliche Vater des Gedankens war, den angeblichen ,,Echec‘‘, den Deutsch- 
+land durch das Zuriickweichen vor der Lloyd Georgeschen Rede erlitten hatte, 
+durch eine Verstarkung unserer Wehrmacht zu Wasser und zu Lande auszu- 
+gleichen und zu diesem Zwecke die ,,Marokkostimmung’ im deutschen Volke 
+auszuniitzen. Schon am 3. August entwickelte GroBadmiral von Tirpitz, der in 
+St. Blasien auf Urlaub weilte, seinem Amtsvertreter Vizeadmiral Capelle die 
+Grundziige einer Flottennovelle, als deren Hauptstiick die Forderung von drei 
+bis vier GroBen Kreuzern erscheint. Wahrend in diesem Schreiben GroBadmiral 
+von Tirpitz’ noch die Verschiebung der Novelle bis 1913 erwogen wird, faBt er 
+in zwei weiteren Schreiben an Vizeadmiral Capelle bereits eine ,,starke‘‘ Novelle 
+fir den kommenden Winter in Aussicht, gleichgiiltig, welchen Eindruck das auf 
+England mache: ,,Die Englander wittern bereits die neue Novelle (,Specta- 
+tor‘ vom 5. August) und schreien dagegen; das kann uns aber nicht abhalten. 
+— Wollen uns die Englander aber die Novelle verbieten, dann haben wir 
+den Kriegsgrund, der jedermann in Deutschland verstandlich ware, und als- 
+dann missen wir dem Schicksal seinen Lauf lassen.“ Am 30. August 1911 
+teilte dann GroBadmiral von Tirpitz dem Reichskanzler seine Gedanken iiber 
+eine sich aus der Gesamtlage ergebende und meines Erachtens in Balde ein- 
+zubringende Marinenovelle mit, die die Formierung eines dritten aktiven Ge- 
+schwaders, beschleunigten Ersatz der ginzlich veralteten Panzerkreuzer und 
+eine Forderung von jahrlich drei groBen Schiffen in den nachsten sechs Jahren, 
+an Stelle der nach dem Flottengesetz vorgesehenen zwei in Aussicht nahm 
+Der Reichskanzler, der iiber diesen Plan am 31. August und am 1. September 
+mit dem Staatssekretir des Reichsmarineamts eingehend beriet, auBerte jedoch 
+schwere Bedenken, einerseits auBenpolitische: Kriegsgefahr mit England, an- 
+dererseits innenpolitische: Schwierigkeit der Kostenaufbringung. SchlieBlich 
+einigten sich Reichskanzler und Staatssekretir dahin, da® zunichst die Ma- 
+rokkofrage wenigstens grundsitzlich erledigt sein miisse, ehe die letzte Ent- 
+scheidung iiber die Novelle getroffen werden kénne. In den Akten des Aus- 
+wartigen Amts findet sich nur sehr wenig Material iiber die Auseinander- 
+cy fa “hela den ,,Ressorts“ iiber die Marinenovelle. Auch das Schreiben 
+Jrofadmiral von Tirpitz’ an Reichskanzler von Bethmann 
+
+(v. Tirpitz, a. a. O., S. 207f.) ist nicht bei den Akten. ONCE NOR) 20h ea 
+
+
+4 
+
+
+fertigen Geist der deutschen Regierung habe dndern kénnen1? Nie- 
+mand habe Deutschland das Recht auf einen Platz an der Sonne 
+bestritten®. In alldeutschen Kreisen werde man die Worte Seiner 
+Majestat mit der Marokkofrage in Verbindung bringen. Aber dies 
+sei unbegriindet. In Marokko habe Deutschland keine Anspriiche 
+gemacht, die nicht voll befriedigt werden sollen. Niemals sei davon 
+die Rede gewesen, daB Deutschland einen ,,territorialen Platz an 
+der Sonne“ in Marokko verlangt habe?. Alle bisherigen deutschen 
+Staatsleute hatten derartige Absichten abgeleugnet. Auch sei wahrend 
+der ganzen Krisis niemals von der Reichsregierung eine Andeutung 
+gemacht worden, daB ihre bisherige Politik eine Anderung erfahren 
+habe. Welches seien denn die Griinde, die eine neue maritime Star- 
+kung Deutschlands verlangten?? Sei es denn nur eine Frage von 
+Schiffen gewesen, derethalben Deutschland von der Forderung einer 
+Teilung Marokkos abgesehen hatte? 
+PO Metternich 
+
+
+Randbemerkungen Kaiser Wilhelms II.: 
+1 Unverschamtheit 
+2! 
+3 sollen die Briten bei sich selbst anfragen! 
+das ist das Einzige wodurch wir ihnen beikommen kénnen! 
+SchluBbemerkung des Kaisers: 
+Pharisaerische Frechheit! 
+
+
+Nr. 11308 
+
+
+Der Rat im Kaiserlichen Gefolge Gesandter Freiherr 
+von Jenisch, z. Z. in Rominten, an den Staatssekretar 
+des Auswartigen Amtes von Kiderlen 
+
+
+Privatbrief. Ausfertigung 
+Streng vertraulich Rominten, den 28. September 1911 
+
+
+q 
+pp.* Seit dem Vortrage von Tirpitz und Miller spricht Seine 
+Majestat sehr viel und offen itber die Notwendigkeit einer Flotten- 
+
+
+* Der Anfang des Schreibens, der den italienisch-tiirkischen Krieg betrifft, ist 
+mitgeteilt in Bd. XXX, Kap. CCXXXII, Nr. 10844; der SchluB behandelt Reise- 
+dispositionen des Kaisers. Der obige Passus des Jenischschen Schreibens 
+ist alles, was die Akten des Auswartigen Amts bis zum November 1911, abge- 
+sehen von Randbemerkungen des Kaisers zu diesem oder jenem Zeitungsartikel, 
+iiber die Entstehungsgeschichte der Flottennovelle von 1912 enthalten. Das 
+Nihere dariiber findet sich bei A. v. Tirpitz, Der Aufbau der deutschen Welt- 
+macht, S. 212ff. Dort vor allem auch genauere Mitteilungen iiber den Immediat- 
+vortrag des GroBadmirals von Tirpitz vom 26. September, die Stellungnahme des 
+Kaisers, die in zwei (ebenfalls nicht bei den Akten befindlichen) Handschreiben 
+des Kaisers an den Reichskanzler vom 26. und 30. September niedergelegt 
+ist, und iiber eine schriftliche Auseinandersetzung zwischen dem Reichskanzler 
+und dem Staatssekretar des Reichsmarineamts (Schreiben Bethmann Hollwegs 
+
+
+5 
+
+
+novelle, die in diesem oder im nachsten Jahre dem Reichstag un- 
+bedingt vorgelegt werden miisse. Der von dem Flottenverein befir- 
+wortete Bau von sechs modernen Panzerkreuzern genuge nicht, es 
+miisse eiti drittes Geschwader von Linienschiffen geschaffen werden. 
+Er sei fest entschlossen, das Verhaltnis in den Flotten Deutschlands 
+und Englands auf 2:3 zu bringen. Das deutsche Volk werde dies 
+gutheiBen, doch seien dazu neue Steuern notwendig. Es sei nun 
+Sache der Konservativen, die Erbschaftssteuer zu bewilligen. Wie 
+aus allen Randbemerkungen der letzten Zeit hervorgeht, ist die aller- 
+
+
+héchste Stimmung gegen England sehr gereizt. pp. 
+Jenisch 
+
+
+Nr. 11309 
+
+
+Der Botschafter in London Graf von Metternich an den 
+Reichskanzler von Bethmann Hollweg 
+
+
+Ausfertigung 
+Nr. 703 London, den 27. September 1911 
+
+
+Mr. M’ Kenna* hat gestern eine Wahlkreisrede dazu benutzt, sich 
+iiber die Frage der Weiterentwicklung der englischen Seeverteidigung 
+und iiber die Bedeutung der Flotte fiir GroBbritannien zu auBern. Er 
+erinnerte seine Zuhérer zunachst daran, daB er im Marz d. Js. im 
+Unterhause der Ansicht Ausdruck gegeben, die Marineausgaben 
+wirden vom Ende des Jahres ab nicht weiter wachsen. Er habe 
+
+
+an Tirpitz vom 4, Oktober, Erwiderung Tirpitz’? vom 7. Oktober). Der Kaiser 
+legte in seinem Schreiben vom 30. September das Hauptgewicht darauf, daB 
+baldméglichst als deutsches Marineziel die Relation 2:3 publiziert werde. 
+,Der spateste Termin — falls nicht in diesem Herbst — miiBte fiir die Be- 
+kanntgabe des neuen Marineziels an das Volk: Relation 2:3 im Februar un- 
+gefahr nachsten Jahres erfolgen. Das wiirde die einleitende Aktion 
+fiir die spater dann im Herbst 1912 einzubringende Novelle sein. Wir stehen 
+unleugbar an einem entscheidenden Wendepunkt in der Geschichte unseres 
+Vaterlandes. Wir haben den Gegner erkannt, sein fast demiitigendes Wirken 
+gespirt und knirschend ertragen miissen. An unserer Freundschaft scheint 
+ihm vorderhand noch nichts zu liegen. Also sind wir noch nicht stark ge- 
+nug. Ihm imponieren nur Gewalt und Kraft, die in nicht mi®zuverstehenden 
+Faktis sich ihm darstellen. Unser Volk erwartet von der Regierung der Ver- 
+handlungen eine Handlung, wie man es ausdriickt; es muB eine nationale 
+Tat geschehen, die der Begeisterung der Deutschen den rechten Weg weist, 
+ohne dem Gegner Grund zum Handeln zu geben. Das ist der von mir vor- 
+gezeichnete Weg, die Bekanntgabe der Relation von 2:3 fiir die deutsche der 
+britischen Flotte gegeniiber.“ Tirpitz dagegen forderte in seinem Schreiben 
+vom The Oktober bereits die sofortige Ankiindigung der Flottennovelle: gerade 
+jetzt sei der richtige Moment, der wahrscheinlich in gleicher Weise niemals: 
+wiederkehren werde, ,,weii cben in weiteste Volkskreise diesen Sommer Er- 
+
+
+kenntnis eingedrungen ist, daB es notwendig ist, England gegeniiber standhalten 
+zu konnen“. 
+
+
+* Erster Lord der englischen Admiralitat. 
+
+
+6 
+
+
+ferner erklart, man kénne sogar annehmen, daB, wenn keine Ver- 
+groBerung fremder Flottenprogramme eintrete, man fiir das niachste 
+Jahr eine Verminderung der englischen Flottenausgaben voraussehen 
+konne. Diese Auffassung jetzt zu wiederholen, fihle 
+er sich berechtigt. Aber jetzt und stets werde England ge- 
+notigt sein, sich in seinen Riistungen nach dem Umfange dessen zu 
+richten, was andere Machte fiir ihre Marine taten1. Englander, die 
+die Notwendigkeit, das Land auf der jetzigen Hohe seiner Seemacht 
+zu erhalten, ableugneten, befanden sich in einem schweren Irrtum. 
+Er selbst gehe von dem unanfechtbaren Grundsatz aus, daB der Friede 
+nicht nur das héchste Gut der Menschheit sei, aber auch im materiellen 
+Sinne dem groBen Interesse des britischen Reichs entsprache. Eng- 
+land mit seinen groBen Uberseebesitzungen, seinem gigantischen Han- 
+del mit anderen Nationen, mit seiner unvergleichlichen Handelsmarine 
+konne nichts durch einen Krieg gewinnen. 
+
+Aber andererseits brachten die weltumspannenden Interessen des 
+Reichs England von Zeit zu Zeit notwendigerweise in Kontakt — 
+er wolle nicht sagen in Konflikt — mit den Bestrebungen, Hoffnungen 
+und dem Ehrgeiz anderer Volker. Nur eine iiberlegene Flotte kénne 
+England fiir alle Zeiten und unter allen Umstanden die Freiheit der 
+MeeresstraBen sichern, auf der die Sicherheit und die Existenz Eng- 
+lands beruhe. Friede sei des Landes grdBtes Interesse, aber es sei 
+ihm unmoglich, als Bittsteller den Frieden zu erbetteln. England 
+kénne auch nicht den Frieden erkaufen. England konne ihn nur durch 
+seine eigenen Anstrengungen sich gewahrleisten. Ein dauernder Friede 
+sei fiir das britische Reich nur moglich, wenn es ein Friede mit 
+Ehren sei. 
+
+Der ,,Daily Chronicle’ hebt hervor, daB die Rede M’ Kennas 
+eine gute Nachricht enthalte, namlich die, daB die englische Ad- 
+miralitat nicht an eine Beschleunigung oder VergroBerung des deut- 
+schen Marineprogramms giaube. Die AuBerungen Seiner Majestat 
+des Kaisers* seien somit von einigen Leuten falsch ausgelegt worden. 
+Das Blatt weist darauf hin, daB keine Partei mehr wie gerade die 
+liberale sich der groBen nationalékonomischen Verluste bewuBt sei, 
+die die Landesverteidigung mit sich bringe, und da sie mit der aller- 
+aufrichtigsten Freude die Gelegenheit begriiBen wiirde, Heeres- und 
+Marineausgaben einzuschranken. Die Voraussetzung hierfiir sei aber, 
+daB die absolute Uberlegenheit der englischen Flotte erhalten bleibe. 
+Auch im iibrigen schlieBt sich der Verfasser den Worten M’ Kennas 
+an und fihrt dieselben naher aus. 
+
+In seinem ,,The price of peace‘ iiberschriebenen Leitartikel billigt 
+der ,,Daily Express‘ den von M’ Kenna eingenommenen Standpunkt, 
+wirft ihm aber krasse Unwissenheit in bezug auf die Absichten 
+
+
+* Vel. Nr. 11307, FuBnote. 
+
+
+fremder Marinen vor. Im Gegensatz zu ihm nimmt das Blatt an, 
+da8 die MaBnahmen anderer Staaten England notigen wirden, seine 
+Marineausgaben auf der Héhe des Vorjahres auch im nachsten Jahre 
+zu halten. Auch glaubt das Blatt verstehen zu kénnen, wenn die 
+Forderung Englands auf absolute Seeherrschaft von deutscher Seite 
+als lacherlich oder gar arrogant angesehen - werde, England kénne 
+aber einen anderen Standpunkt nicht einnehmen. 
+
+Der Artikel schlieBt mit ernsthaften Friedenswiinschen, wenn 
+auch der fiir den Frieden in Gestalt von Marineausgaben zu zahlende 
+Preis hoch sei*. 
+
+P. Metternich 
+
+
+Randbemerkung Kaiser Wilhelms II.: 
+ae27 3: 
+
+
+Nr. 11310 
+
+
+Der Botschafter in London Graf von Metternich an den 
+Reichskanzler von Bethmann Hollweg 
+Ausfertigung 
+Nr. 734 London, den 9. Oktober 1911 
+
+
+In seiner Ausgabe vom 7. d. Mts. bringt die in den Citykreisen 
+viel gelesene und beliebte Wochenschrift ,,.The Economist‘’ einen 
+Artikel iiber die deutsch-englischen Beziehungen. Nach einer histo- 
+rischen Einleitung bespricht das Blatt kurz die vor einigen Tagen auf 
+dem KirchenkongreB gehaltene Rede Sir Frank Lascelles’ **. Das City- 
+blatt ist der Ansicht, daB ein gutes Einvernehmen zwischen den beiden 
+Volkern auch ohne eine lange Periode gegenseitiger Geduld und guten 
+Willens sich wiirde herstellen lassen. Hatten doch sogar dieselben 
+Staatsmanner, die bereit waren, wegen Faschoda einen Krieg mit 
+Frankreich anzufangen, sich an den Hals Frankreichs geworfen und 
+ewige Freundschaft geschworen, und das unmittelbar nach den wiiten- 
+den Angriffen der Franzosen auf England wahrend des Burenkrieges. 
+Nichts sei leichter zu beeinflussen als die Presse und die 6ffentliche 
+Meinung. Die Hauptschwierigkeit sei vielmehr d",GP,,,,,,,2873,,,,,,,,,,,,,,,
+d24e8684-3cf3-51b1-b763-f97de440409f,de-gp-diegrossepolitik0032joha:x,de,gp,,,,unknown,,de,letter,,,"organ a ee 
+: = 
+
+
+ll 
+
+
+2784670 
+
+
+a Woman's College of 
+ersity of No rth Carolina 
+
+
+The LIBRARY 
+
+
+PRINTED] IN U.S. A, 
+
+
+tae Die 
+Diplomatischen Akten 
+des Auswartigen Amtes 
+
+
+1871-1914 
+
+
+Herausgegeben 
+im Auftrage des Auswartigen Amtes 
+
+
+NRE aie 
+
+
+0 on ak 
+
+
+BORE PRS I Ox Ph yt és ent 
+
+
+_ https://archive.org/details/dieg 
+
+
+het 
+
+
+oH Die 
+
+~~ Grosse Politik der 
+
+Europaischen Kabinette 
+IS71-1914 
+
+
+Sammlung der Diplomatischen 
+Akten des Auswartigen Amtes 
+
+
+Im Auftrage des Auswartigen Amtes 
+herausgegeben von 
+
+
+Johannes Lepsius + 
+Albrecht Mendelssohn Bartholdy 
+Friedrich Thimme 
+
+
+l 9 2 6 
+
+
+DEUTSCHE VERLAGSGESELLSCHAFT FOR POLITIK 
+UND GESCHICHTE M. B. H. IN BERLIN W 8 
+
+
+32. Band 
+Die 
+Machte und Ostasien 
+1909-1914 
+
+
+1 9 2 6 
+
+
+DEUTSCHE VERLAGSGESELLSCHAFT FUR POLITIK 
+UND GESCHICHTE M. B. H. IN BERLIN W 8 
+
+
+an is COE 
+
+
+AUG 6 \1926 
+RY 
+of ccd, 
+
+
+1. Auflage 
+
+
+Alle Rechte, besonders das der Ubersetzung, vor- 
+behalten / Fiir RuBland auf Grund der deutsch- 
+russischen Ubereinkunft / Amerikanisches Co- 
+pyright 1926 by Deutsche Verlagsgesellschaft 
+fiir Politik und Geschichte m.b.H. in Berlin 
+W 8, Unter den Linden 17/18 / Amerikanische 
+Schutzzollformel: Made in Germany / Gesetzt 
+und gedruckt in der Buchdruckerei F. E. Haag 
+in Melle i. H. 
+
+
+Inhaltsiibersicht des zweiunddreiBigsten Bandes 
+
+
+KAPITEL CCXLIX 
+
+
+Die Anleihepolitik der Machte I. Das ,,Syndikat der Vier“‘ und 
+die Chinesischen Eisenbahnanleihen. Marz 1909 bis Mai 1910 
+
+
+KAPITEL CCL 
+
+
+Der Amerikanische VorstoB fiir Internationalisierung der Man- 
+dschurischen Eisenbahnen und Deutschlands Stellungnahme. 
+Dezember 71909. bis: Juli 1910 soe ahi PN ole Sadi + 30 
+
+
+KAPITEL CCLI 
+Das Russisch-Japanische Mandschureiabkommen vom 4. Juli 1910 
+
+
+KAPITEL CCLII 
+Die Annexion Koreas durch Japan. August bis September 1910 
+
+
+KAPITEL CCLIII 
+
+
+Deutsch-Amerikanische Erérterungen iiber eine Integritatserkla- 
+rung zugunsten Chinas. September 1910 bis Juni 1911....... 
+
+
+KAPITEL CCLIV 
+
+
+Die Anleihepolitik der Machte II]. Die Wahrungsanleihe. Bewilli- 
+gung von Vorschiissen an die Chinesische Regierung? Novem- 
+Der POI ican LOU IF ioe a fea viele ts sige eln yc ot wd eee sa oes 
+
+
+KAPITEL CCLV 
+Die Chinesisch-Russischen Differenzen. Februar bis April 1911 
+
+
+KAPITEL CCLVI 
+
+
+Die Abanderung des Englisch-Japanischen Bundnisvertrages. 
+April bis Juli 1911.2... 0. eee cee ce eee tenet cece tans 
+
+
+KAPITEL CCLVII 
+Die Chinesische Revolution und die Frage einer Intervention der 
+Machte. Die Anerkennung der Chinesischen Republik durch die 
+Machte. Dezember. 1911 bis Oktober 1913 ........+eueeeeee 
+
+
+65 
+
+
+113 
+
+
+129 
+
+
+147 
+
+
+159 
+
+
+211 
+
+
+KAPITEL CCLVIII 
+
+
+Die Anleihepolitik der Machte III. Die Reorganisationsanleihe. 
+Marz 1912 bis Juli191425% ¢ sv .5 eames oo ic 
+
+
+KAPITEL CCLIX 
+
+
+Die Tibetfrage. Das Russisch-Mongolische Abkommen vom 3. No- 
+vember 1912. Das Russisch-Chinesische Mongoleiabkommen vom 
+5. November 1913. Dezember 1910 bis Juli 1914.......... 
+
+KAPITEL CCLX 
+
+
+Das Deutsch-Japanische Verhaltnis. 1911—1914............. 
+Anhang: Ein Russisch-Japanisches Kriegsabkommen gegen 
+Deutschland? ceo « oc 0.4 29 sia d erg eet ag aca ne a 
+
+
+Ein Namenverzeichnis fiir die Bande XXVI—XXXVII erscheint am 
+Schlusse des XXXVII. Bandes; ein ausfiihrliches Namen- und Sach- 
+
+
+verzeichnis zum Schlusse des gesamten Werkes 
+
+
+VIII 
+
+
+Kapitel CCXLIX 
+
+
+Die Anleihepolitik der Machte | 
+Das ,,Syndikat der Vier’ und die Chinesischen 
+Eisenbahnanleihen 
+Marz 1909 bis Mai 1910 
+
+
+1 Die Grofe Politik. 32. Bd. 
+
+
+ar 
+Se. = a 2 
+
+
+’ ~~ 
+
+
+nel Ft wi wer oat” . <s = 
+
+
+Nr. 11 603 
+
+
+Der Gesandte in Peking Graf von Rex an den Reichs- 
+kanzler Firsten von Biilow 
+Ausfertigung 
+
+
+Nr. 1183 Peking, den 12. Marz 1909 
+Ganz geheim [pr. 21. April] 
+
+
+Zum Dank dafiir, daB im Jahre 1905 der englische Generalkonsul 
+Fraser in Hankau den damaligen Generalgouverneur der Hu-Provinzen 
+Tschang-Tschih-Tung beim Riickkauf der Konzession fiir die Kanton— 
+Hankau-Bahn von den Amerikanern unterstiizt hatte, hatte sich dieser 
+in einer an Fraser gerichteten Note verpflichtet, sich, falls zum Bau 
+dieser Bahn eine fremde Anleihe aufgenommen werden sollte, zu- 
+nachst an das englische Kapital zu wenden. Ein gleiches Versprechen 
+gab er flr irgendwelche andere Bahnen, die im Gebiet von Hupei 
+und Hunan gebaut werden sollten. Ubersetzung dieser Note war 
+Euerer Durchlaucht mit dem Gesandtschaftsbericht A 345 vom 1. No- 
+vember 1905 iibersandt worden. 
+
+Nachdem nun Tschang-Tschih-Tung im Oktober v. Js. zum General- 
+direktor der Kanton—Hankau-Bahn ernannt worden war und sich die 
+Notwendigkeit der Aufnahme einer fremden Anleihe herausgestellt 
+hatte, wandte er sich Anfang des Jahres getreu seinem Versprechen 
+an den Vertreter der ,,British and Chinese Corporation“ Bland und 
+ersuchte ihn um Abgabe einer Offerte. Es begannen zwar Verhand- 
+lungen, die aber keine Fortschritte machten, weil Bland im Gefihl 
+der Sicherheit seiner Position zur Nennung eines bestimmten Uber- 
+nahmekurses nicht zu bewegen war und auBerdem von vornherein 
+darauf bestand, daB der englische Chefingenieur weitgehende Befug- 
+nisse in bezug auf die Kontrolle iiber die Verwendung der Baugelder 
+haben miisse. 
+
+Im Dezember v. Js. war Tschang-Tschih-Tung auch zum General- 
+direktor der in der Provinz Hupei gelegenen Strecke der Hankau— 
+Sze-tschwan-Bahn ernannt worden. Auch hierfiir wollte er eine Anleihe 
+abschlieBen. Sobald er von dem Wiedereintreffen des Bankdirektors 
+Cordes in Peking hdérte, mit dem er bereits 1905 und 1907 Be- 
+sprechungen iiber den Gegenstand gehabt hatte, lie®B er ihn zu sich 
+biiten. Er gab Herrn Cordes* gegeniiber seine Absicht dahin zu er- 
+kennen, die Kanton—Hankau-Linie mit den Englandern, die Hankau— 
+Sze-tschwan-Linie aber aus politischen Griinden mit den Deutschen ab- 
+zuschlieBen. Da er auch beziiglich der letzteren Bahn den Englandern 
+
+
+* Vertreter der Deutsch-Asiatischen Bank in Peking. 
+
+
+1* 3 
+
+
+gegeniiber durch die erwahnte Note an Fraser verpflichtet war, ent- 
+stand die schwierige Frage, wie es anzufangen sel, daB die Deutschen 
+die Anleihe fiir die Hankau—Sze-tschwan-Bahnstrecke bekamen, ohne 
+da8 Tschang-Tschih-Tung den Englandern gegentiber wortbriichig wiirde, 
+und ohne den Einspruch der englischen Regierung fiirchten zu miissen. 
+
+Das Verhalten Blands brachte schlieBlich die Entscheidung. Da 
+er sich trotz Tschang-Tschih-Tungs Drangen fortgesetzt weigerte, seinen 
+bestimmten Preis fiir die Kanton—Hankau-Bahn zu nennen, stellte ihm 
+Tschang-Tschih-Tung eine Frist und, als auch diese resultatlos ver- 
+laufen war, nahm er eine Offerte von Herrn Cordes an und erklarte 
+den Englandern durch Vermittelung des Waiwupu-Prasidenten Liang 
+tun yen, er habe den Englandern gegeniiber sein Versprechen erfiillt 
+und sei jetzt frei, mit anderen zu verhandeln. Die Korrespondenz 
+zwischen Herrn Cordes und Tschang-Tschih-Tung bezw. dessen Bevoll- 
+machtigten ist in deutscher Ubersetzung beigefiigt*. Damit ist ein 
+Ubereinkommen iiber eine Anleihe von drei Millionen Pfund (die 
+Summe ist versehentlich ausgelassen, jedoch in einem spateren Schrei- 
+ben nachgeholt) zum Bau der Kanton—Hankau-Bahn zustande ge- 
+kommen. 
+
+Beim Empfang der Nachricht ist der englische Gesandte ** sofort 
+zu Liang tun yen gefahren und hat ihn gefragt, ob es wahr sei, da 
+Tschang-Tschih-Tung mit Herrn Cordes abgeschlossen habe. Nachdem 
+dies bejaht war, fragte er weiter, ob keine Méglichkeit ware, eine 
+Anderung der Sache herbeizufiihren; die Angelegenheit sei fiir ihn 
+als Gesandten sehr peinlich und wiirde méglicherweise dem General- 
+konsul Fraser seine Stellung kosten. Als Liang tun yen antwortete, 
+er bedauerte, an der Sache nichts andern zu k6nnen, erklarte ihm 
+Sir John, er wisse nicht, was seine Regierung dazu sagen werde, er 
+miisse sich alles Weitere vorbehalten. 
+
+Fir den Fall, daB die englische Regierung etwa mit groBer Scharfe 
+gegen die Abmachungen vorgehen sollte, ist, wie ich Euerer Durch- 
+laucht bereits meldete, zwischen Tschang-Tschih-Tung und Cordes die 
+ganz geheime Verabredung getroffen, daB den Englindern die An- 
+leihe fiir die Kanton—Hankau-Bahn iiberlassen, den Deutschen jedoch 
+diejenige fiir die Hankau—Sze-tschwan-Bahn iibertragen werde. 
+
+_ Der deutsche Erfolg, der vornehmlich der groBen Geschicklich- 
+keit des Herrn Cordes zu danken ist, hat hier groBes Aufsehen erregt. 
+Kein Mensch ahnte, dab wir in ernsthaften Verhandlungen mit den 
+Chinesen begriffen seien. Jeder Mensch glaubte, daB die Bahn den 
+Englandern gesichert sei. Die Englinder, vor allem Dr. Morrison***, 
+sprechen es ganz offen aus, daB das Eindringen Deutschlands in das 
+Jangtsegebiet ihnen volistandig unerwartet kame, daB aber dieser 
+* Hier nicht abgedruckt 
+** Sir John Newell Jordan. 
+
+*“*““ Korrespondent der ,,Times“ in Peking. 
+
+
+4 
+
+
+Erfolg Deutschlands lediglich auf das fehlerhafte Verhalten Blands 
+zuritckzufiihren sei. 
+
+
+A. Rex 
+Nr. 11604 
+Der Reichskanzler Fiirst von Biilow an Kaiser Wilhelm II. 
+Ausfertigung 
+
+
+Berlin, den 15. Mai 1909 
+
+
+Fuerer Kaiserlichen und K6niglichen Majestat beehre ich mich 
+alleruntertanigst zu melden, daB heute * in Berlin zwischen der Deutsch- 
+Asiatischen Bank und den Vertretern der englischen und franzésischen 
+Finanzgruppen eine Verstandigung iiber die von China projektierten 
+Eisenbahnbauten im Jangtsetal zustande gekommen ist. Danach wollen 
+die drei Finanzgruppen der chinesischen Regierung fiir die Hunan- 
+Strecke der Hankau—Kanton-Linie und fiir die Hupei-Strecke der Han- 
+kau—Tschongtu-Linie eine Anleihe von 5500000 Pfund Sterling gegen 
+geeignete Sicherheit gewahren. An dieser Anleihe und an der Lieferung 
+der Eisenbahnmaterialien sollen Deutschland, England und Frank- 
+reich gleichmaBig partizipieren. Es ist beabsichtigt, die Anleihe an 
+den Borsen von Berlin, London und Paris zu notieren. Die deutsche 
+Gruppe soll fiir die etwa 800 km lange Hupei-Strecke der Hankau— 
+Tschongtu-Linie den Chefingenieur stellen, wahrend der englischen 
+Gruppe die Prasentation des Chefingenieurs fiir die Hankau—Kanton- 
+Strecke vorbehalten bleibt. 
+
+Durch diese Verstaéndigung sind die Differenzen beigelegt worden, 
+die zwischen der Deutsch-Asiatischen Bank und den beiden anderen 
+Finanzgruppen aus AnlaB ihres Wettbewerbes in China ausgebrochen 
+waren. Das vorliegende Abkommen kann von unserem Standpunkte 
+nur mit Genugtuung begrii®t werden, da es das bisher von Eng- 
+land beanspruchte Monopol fiir Eisenbahnbauten im Jangtsetal durch- 
+bricht! und dem deutschen Kapital und der deutschen Industrie in 
+dieser angeblich englischen ,,Interessensphare“‘ ein neues aussichts- 
+reiches Feld der Betatigung erOffnet?. 
+
+Die Verhandlungen mit der chinesischen Regierung werden nach 
+Ansicht der hiesigen Finanzkreise nunmehr ohne weitere Schwierig- 
+
+
+keiten alsbald zum AbschluB gelangen. 
+Biilow 
+
+
+Bemerkung Kaiser Wilhelms II. am Kopf des Schriftstiicks: 
+Diejenigen welche sich beim Zustandekommen dieses Vergleichs verdient 
+gemacht haben zur Dekoration vorschlagen 
+sehr erfreulich 17/V 09 W. 
+
+Randbemerkungen des Kaisers: 
+
+1 Bravo 
+
+2 gut 
+
+* Richtig: gestern. 
+
+
+Nr. 11 605 
+
+
+Der Gesandte in Peking Graf von Rex an den Reichs- 
+kanzler Fiirsten von Bilow 
+
+
+Ausfertigung 
+
+
+Nr. 2479 Peking, den 21. Mai 1909 
+[pr. 5. Juni] 
+
+
+Ohne daB es zu einer politischen Pression gekommen ware, ist 
+nunmehr eine Einigung zwischen den auswartigen Geldgebern und 
+der chinesischen Regierung iiber die zum Bau der Hankau—Kanton- 
+und Hankau—Sze-tschwan-Bahn aufzunehmende Anleihe erfolgt. Die 
+Anleihe in Héhe von 5,5 Millionen Pfund wird von der Deutsch- 
+Asiatischen Bank, der Hongkong-Bank und der Banque de I’Indo- 
+Chine zu gleichen Teilen und mit gleichen Rechten hinsichtlich der 
+Materiallieferung tibernommen. 
+
+Der Bau der Hankau—Kanton-Bahn wird von einem englischen 
+Chefingenieur geleitet, fiir die Sze-tschwan-Bahn, die aus zwei Strecken, 
+namlich der Linie Hankau—I-tschang und einer weiteren Verbindung 
+von I-tschang mit einer mehr nordlich gelegenen Station der Peking— 
+Hankau-Bahn besteht, ist ein deutscher Chefingenieur vorgesehen. Die 
+dem englischen und deutschen Chefingenieur zufallenden Strecken sind 
+annahernd gleich lang. DaB fir eine etwaige Verlangerung der 
+Sze-tschwan-Bahn iiber I-tschang hinaus zunachst ein franzésischer und 
+dann weiterhin ein englischer Chefingenieur ins Auge gefaBt sind, hat 
+vermutlich keine praktische Bedeutung, da guter Grund zu der An- 
+nahme vorhanden ist, daB die reiche Provinz Sze-tschwan das Geld fiir 
+die letztgenannten Strecken selber aufbringen wird. Uber Einzelheiten 
+des Abkommens wird noch verhandelt. 
+
+Die Deutsch-Asiatische Bank und die chinesische Regierung haben 
+allen Grund, mit dem erreichten Resultat zufrieden zu sein. Die 
+Chinesen haben erreicht, daB in die ,,Interessensphare“ der Englander 
+im Jangtsetal ein fremder Keil eingetrieben und ein gewisses Gleich- 
+gewicht der auslandischen Finfliisse auch dort hergestellt ist. Sie 
+haben ferner die Anleihe unter wesentlich giinstigeren Bedingungen 
+erhalten, als sie ihnen urspriinglich von der englisch-franzésischen 
+Finanz zugestanden werden sollte. Die Deutsch-Asiatische Bank hat 
+sich eine Beteiligung an den grofen Bahnbauten im Jangtsetale 
+erzwungen, die ihr friiher von der englisch-franzésischen Finanzgruppe 
+zu annehmbaren Bedingungen nicht gewahrt worden war. Ja noch 
+mehr, sie ist die fithrende Bank bei dieser Anleihe geworden und 
+hat der alteingesessenen Hongkong-Bank den Rang abgelaufen. Die 
+Anleihebedingungen entsprechen im allgemeinen dem Tientsin-Pu-kou- 
+Vertrage und sind annahernd die zwischen der Deutsch-Asiatischen 
+Bank und der chinesischen Regierung urspriinglich vereinbarten. 
+
+
+6 
+
+
+Andererseits war es natiirlich sowohl fiir die Deutsch-Asiatische 
+Bank wie fiir die chinesische Regierung von Wert, die Briicken 
+nach dem anderen Lager nicht ganz abzubrechen. Herr Cordes hat 
+daher von Anfang an darauf Bedacht genommen, die private Fuhlung 
+mit den Englandern nicht zu verlieren. Der erste offizielle Schritt zur 
+Wiederankniipfung der Verhandlungen ist aber von der Hongkong- 
+Bank ausgegangen. 
+
+
+Die Deutsch-Asiatische Bank hat namentlich auch dank der festen 
+Haltung ihres Direktoriums gegeniiber den englisch-franzdsischen 
+Drohungen China den Beweis ihrer Unabhangigkeit von den anderen 
+Finanzgruppen erbracht. Dieser moralische Erfolg bleibt auch nach 
+der Einigung mit den Englandern und Franzosen bestehen. Das in 
+der Berliner Konferenz getroffene Ubereinkommen liegt daher genau 
+in der Richtung der deutschen und der chinesischen Interessen, wahrend 
+es fiir die Englander und Franzosen nur einen widerwillig geschlossenen 
+Kompromi8 bedeutet. Der englische Gesandte glaubte einige Tage, 
+daB die Sache ihm seine Stellung kosten kénnte. Ihm und dem hiesigen 
+Vertreter der Banque de I’Indo-Chine, M. Casenave, konnte man 
+ansehen, daB sie froh waren, aus der miBlichen Lage noch so glimpf- 
+lich herausgekommen zu sein. 
+
+
+Erwahnen muB ich noch, daB Tschang-Tschih-Tung von einer Be- 
+teiligung der Franzosen an der Anleihe nichts wissen wollte, er weigerte 
+sich, die Franzosen zur Unterschrift zuzulassen. Erst auf Zureden des 
+Herrn Cordes willigte er ein, daB die Franzosen als Partner der 
+Englander fiir die Kanton—Hankau-Bahn mitzeichneten. Der Grund 
+dieser franzosenfeindlichen Haltung Tschang-Tschih-Tungs riihrt von 
+einer Unterhaltung mit dem friiheren Gesandten, Herrn Bapst, her, in 
+welcher dieser in schroffer Weise behauptete, Rechte auf Beriick- 
+sichtigung bei den Eisenbahnen in Hukuang zu haben. Das Auftreten 
+des Herrn Bapst hat auf Tschang-Tschih-Tung einen so unginstigen 
+Eindruck gemacht, daB er sich eigentlich vorgenommen hatte, die 
+Franzosen von der Anleihe auszuschlieBen. 
+
+
+Der bemerkenswerte Erfolg der Deutsch-Asiatischen Bank ist 
+sowohl auf allgemeine politische, als auch auf besondere persénliche 
+Griinde zuriickzufiihren. DaB China gegeniiber der iibermachtigen 
+Stellung der Englander am Jangtse sich Hilfe bei dem deutschen 
+Kapital suchte, ist als ein Akt groBen politischen Vertrauens aufzu- 
+fassen, der besser als viele Worte den giinstigen Stand der derzeitigen 
+chinesisch-deutschen Beziehungen beleuchtet. Die chinesischen und 
+deutschen Interessen fielen im vorliegenden Falle so eng zusammen, 
+daB ich in der gliicklichen Lage war, mich jeder Mitwirkung bei den 
+schwebenden Verhandlungen enthalten zu kénnen, wahrend auf der 
+anderen Seite die englische Gesandtschaft sich stark, wenngleich ohne 
+Erfolg, zu engagieren gezwungen war. 
+
+
+Trotzdem ware das giinstige Resultat nicht erreicht worden, 
+wenn nicht die Englander im Gefithl ihrer Sicherheit sich zu einer so 
+schroffen Haltung der chinesischen Regierung gegeniiber hatten ver- 
+leiten lassen, und wenn nicht andererseits in Herrn Cordes den 
+Chinesen ein ebenso geschickter wie loyaler Berater zur Seite ge- 
+standen hatte. Das enge Vertrauensverhaltnis, in dem Herr Cordes 
+zu den beiden leitenden Mannern Tschang-Tschih-Tung und Liang tun 
+yen steht, war auch in dieser Angelegenheit von groBtem Wert. Die 
+ganze Kampagne ist von Herrn Cordes mit auBerordentlichem Geschick 
+gefiihrt worden. Es stand viel auf dem Spiele. Hatte die Deutsch- 
+Asiatische Bank vor der englisch-franzésischen Finanzgruppe zuriick- 
+weichen miissen, so hatte nicht nur die Bank, sondern das deutsche 
+Ansehen in China iiberhaupt erheblich dadurch gelitten. Auch die 
+Standhaftigkeit des Direktoriums der Deutsch-Asiatischen Bank gegen- 
+iiber den englisch-franzésischen Anspriichen muB vom nationalen 
+Standpunkt aus mit warmem Dank anerkannt werden. 
+
+Abgesehen von dem Anleihegewinn und den zu erwartenden Auf- 
+tragen fiir unsere Industrie dirfte das erzielte Resultat vor allem 
+auch der Stellung des Deutschtums im Jangtsetale, speziell in Hankau 
+und I-tschang, zugute kommen. 
+
+Das Hauptverdienst von diesem sowohl materiellen wie mora- 
+lischen Erfolg der deutschen Sache muB Herrn Cordes zuerkannt 
+werden. Euerer Durchlaucht hochgeneigter Erwagung darf ich daher 
+gehorsamst anheimstellen, ob Herr Cordes nach definitivem AbschluB 
+der Anleihe bei sich bietender Gelegenheit nicht wieder fiir eine 
+allerh6chste Ordensauszeichnung in Vorschlag zu bringen sein méchte. 
+
+
+A. Rex 
+
+
+Nr. 11 606 
+
+
+Der Geschaftstriger in Peking von Mutius an das 
+Auswartige Amt 
+
+
+Telegramm. Entzifferung 
+
+
+Nr. 52 Peking, den — Juni 1909 
+[eingetroffen am 11. Juni] 
+
+
+Amerikanischer Geschaftstrager* teilt mit, daB seine Regierung 
+auf Grund der frither erhobenen Anspriiche, die von Chinesen nicht 
+
+
+* S. P. Fletcher. 
+
+
+8 
+
+
+direkt abgewiesen, gegen AbschluB Hukuang-Eisenbahnvertrag bei 
+chinesischer Regierung protestiert habe *. 
+
+Amerikanische Regierung schlagt vor Einbeziehung Sze-tschwan- 
+Strecke in gegenw4rtige Anleihe und amerikanische Beteiligung Gruppe 
+_Pierpont Morgan. Da fiir Sze-tschwan-Strecke ausreichend einheimisches 
+Kapital zur Verfiigung, ist dieser Vorschlag wohl unausfiihrbar. 
+
+Scheinbar wollen Amerikaner gegenwartig Anleihe nicht zu Fall 
+bringen, sondern fiir Zukunft paritaitische Angliederung an deutsch- 
+franzOsisch-englische Gruppe erreichen. Anscheinend politische Mo- 
+tive fiir amerikanische Aktion maBgebend. Schaffung gemeinsamer 
+materieller Interessen mit Amerika in China politisch vielleicht nicht 
+unerwinscht. Hingegen wiirde Beteiligung Amerikas an jetziger An- 
+leihe in gegenwartigem Stadium deren Zustandekommen ernstlich 
+gefahrden. 
+
+Mutius 
+
+
+Nr. 11 607 
+
+
+Der Staatssekretar des Auswartigen Amtes Freiherr 
+von Schoen an den Geschdajtstréger in Peking von Mutius 
+
+
+Telegramm. Konzept von der Hand des Vortragenden Rats Freiherrn von dem 
+Bussche-Haddenhausen 
+
+
+Nr. 21 Berlin, den 11. Juni 1909 
+
+
+Auf Telegramm Nr. 52**. 
+
+Amerikanische Regierung hat auch hier wegen Bahnanleihe eine 
+Demarche gemacht, welche amerikanischer Botschafter auf meine 
+Frage nicht als Protest bezeichnete. Ich erklarte ihm, daB wir uns 
+bisher in Streitigkeiten iiber angebliche chinesische Vorzugsversiche- 
+rungen nach Méglichkeit nicht eingemischt und Verstandigung be- 
+teil",GP,,,,,,,2722,,,,,,,,,,,,,,,
