@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Diplomatic Archives</title>
+    <meta name="description" content="Diplomatic Archives: an open, searchable dataset of edited diplomatic correspondence across countries with filtering and exports." />
+    <meta property="og:title" content="Diplomatic Archives" />
+    <meta property="og:description" content="Explore edited diplomatic documents across France, the UK, and Germany; filter, read, and export." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/topSecret.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .hero {
+        position: relative; min-height: 58vh; display: grid; place-items: center; overflow: hidden;
+        color: #fff; text-align: center; background: #0b1022;
+      }
+      .hero::before {
+        content: ""; position: absolute; inset: 0; background: url('assets/topSecret.png') center/cover no-repeat; opacity: 0.32; filter: blur(0.5px);
+      }
+      .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,16,34,0.55), rgba(11,16,34,0.75)); }
+      .hero .inner { position: relative; max-width: 900px; padding: 48px 24px; }
+      .hero h1 { margin: 0 0 10px 0; font-size: 36px; letter-spacing: 0.4px; }
+      .hero p { margin: 6px 0 18px 0; font-size: 16px; opacity: 0.95; }
+      .cta { display: inline-flex; gap: 12px; }
+      .cta a { background: #1155cc; color: #fff; padding: 10px 14px; border-radius: 8px; text-decoration: none; font-weight: 600; border: 1px solid #0f4ab0; }
+      .cta a.secondary { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.24); }
+      .sections { max-width: 980px; margin: 0 auto; padding: 18px 16px 32px; }
+      .sections h2 { font-size: 20px; margin: 18px 0 8px; }
+      .card { background: var(--bg2); border: 1px solid var(--muted); border-radius: 10px; padding: 14px; margin: 10px 0; }
+      .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Diplomatic Archives</h1>
+      <div class="meta">An open, searchable dataset of edited diplomatic correspondence</div>
+      <nav class="nav">
+        <a href="browse.html">Browse</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="inner">
+        <h1>Explore diplomatic cables across countries and years</h1>
+        <p>Edited diplomatic documents from France, the United Kingdom, and Germany — unified, searchable, and ready to explore. Filter by corpus and document type, view “from → to”, and export your results.</p>
+        <div class="cta">
+          <a href="browse.html">Browse Data</a>
+          <a class="secondary" href="data/diplomatic_cables_v0_1.jsonl">Download PoC JSONL</a>
+        </div>
+      </div>
+    </section>
+
+    <main class="sections">
+      <section class="grid">
+        <div class="card">
+          <h2>What is this?</h2>
+          <p>A unified dataset of edited diplomatic documents (letters, telegrams, despatches, memoranda) from official published series. The proof-of-concept includes a tiny sample from France (DDF), the UK (British Documents), and Germany (Grosse Politik).</p>
+        </div>
+        <div class="card">
+          <h2>What can I do?</h2>
+          <p>Search by date and content, filter by country and document type, view the “from → to” header, and export the current selection as CSV or JSON for analysis.</p>
+        </div>
+        <div class="card">
+          <h2>License</h2>
+          <p>Data is released under CC0 1.0. Code in this repository is permissively licensed (MIT/Apache-2). Please attribute the project when reusing.</p>
+        </div>
+        <div class="card">
+          <h2>What’s next?</h2>
+          <p>Expanding coverage, enriching records (sender/recipient normalization), and adding multi-country browsing and downloads for larger releases.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>Data © CC0 1.0 • Code MIT/Apache-2 (repo)</div>
+    </footer>
+  </body>
+  </html>

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Diplomatic Archives — Browse</title>
+    <meta name="description" content="Browse diplomatic archives: filter by corpus, type, year; search and export results." />
+    <meta property="og:title" content="Diplomatic Archives — Browse" />
+    <meta property="og:description" content="Filter by country and document type, search, and export diplomatic documents." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/topSecret.png" />
+    <link rel="canonical" href="browse.html" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Diplomatic Archives — Browser</h1>
+      <div class="meta">v0.1 • CC0 data • FR + UK + DE sample</div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="controls" aria-label="Filters">
+        <div class="filters-bar">
+          <label style="flex:1 1 auto; margin-right: 12px;">
+            <span>Search</span>
+            <input id="q" type="search" placeholder="Search text, date, type, from/to..." aria-label="Search" />
+          </label>
+          <button id="toggle-filters" class="btn" aria-expanded="true" aria-controls="filters-panel">Hide Filters ▴</button>
+        </div>
+        <div id="filters-panel" class="filters-panel" role="region" aria-label="Filter panel">
+          <div class="selects" role="group" aria-label="Corpus and type filters">
+            <label>
+              <span>Corpus</span>
+              <select id="corpus-select" multiple aria-label="Select one or more corpora">
+                <option value="fr" selected>FR</option>
+                <option value="uk" selected>UK</option>
+                <option value="de" selected>DE</option>
+              </select>
+            </label>
+            <label>
+              <span>Type</span>
+              <select id="type-select" multiple aria-label="Select one or more document types">
+                <option selected>letter</option>
+                <option selected>telegram</option>
+                <option selected>despatch</option>
+                <option selected>memorandum</option>
+                <option selected>circular</option>
+                <option selected>enclosure</option>
+                <option selected>report</option>
+                <option selected>note</option>
+              </select>
+            </label>
+          </div>
+          <div class="range-row" role="group" aria-label="Year range">
+            <div class="range-slider" aria-label="Year range slider">
+              <div class="track"></div>
+              <div class="range" id="range-highlight" style="left:0; right:0"></div>
+              <input id="year-min" type="range" min="1800" max="2000" value="1871" aria-label="Year minimum" />
+              <input id="year-max" type="range" min="1800" max="2000" value="1914" aria-label="Year maximum" />
+            </div>
+            <div class="year-readout">Year: <span id="year-readout">All</span></div>
+          </div>
+          <div class="hint">Tip: Hold Cmd (Mac) or Ctrl (Windows/Linux) to select multiple.</div>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="list-pane">
+          <div class="list-meta">
+            <div><span id="count" aria-live="polite">0</span> records</div>
+            <div class="actions">
+              <button id="sort-date" class="btn" aria-label="Toggle sort by year">Sort by year ▲</button>
+              <button id="reset" class="btn" aria-label="Reset filters">Reset Filters</button>
+              <div class="dropdown">
+                <button id="export-btn" class="btn" aria-haspopup="true" aria-expanded="false">Export ▾</button>
+                <div id="export-menu" class="dropdown-menu" role="menu" aria-labelledby="export-btn">
+                  <button id="export-csv" role="menuitem">CSV (Excel‑friendly)</button>
+                  <button id="export-json" role="menuitem">JSON (records)</button>
+                  <button id="export-meta" role="menuitem">Metadata (JSON)</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <table class="results" id="results">
+            <thead>
+              <tr>
+                <th>corpus</th>
+                <th class="sortable" data-sort="date" aria-sort="none">date</th>
+                <th>doc_type</th>
+                <th>from</th>
+                <th>to</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <aside class="detail-pane" id="detail">
+          <div class="placeholder">Select a row to view details</div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        Data © CC0 1.0 • Code MIT/Apache-2 (repo). Built from PoC sample.
+      </div>
+      <div>Dataset: <code>data/diplomatic_cables_v0_1.jsonl</code></div>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+  </html>
