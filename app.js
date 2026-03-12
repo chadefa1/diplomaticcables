@@ -1,6 +1,8 @@
 /* Minimal PoC browser for unified diplomatic cables (v0.1) */
 
-const DATA_URL = 'data/diplomatic_cables_v0_1.jsonl';
+// Cache-bust the dataset fetch to avoid stale JSONL on GitHub Pages
+const DATA_URL_BASE = 'data/diplomatic_cables_v0_1.jsonl';
+const DATA_URL = DATA_URL_BASE + '?v=' + (new Date().getTime());
 
 /** @type {Array<object>} */
 let DATA = [];
