@@ -133,15 +133,9 @@ function renderDetail(r) {
 function attachControls() {
   const debounced = debounce((v)=>{ FILTER.q = v; updateURL(); renderList(); }, 200);
   $('#q').addEventListener('input', (e) => { debounced(e.target.value); });
-  // Multi-selects → Sets
-  const updateMulti = (sel, targetSet) => {
-    targetSet.clear();
-    Array.from(sel.selectedOptions).forEach(opt => targetSet.add(opt.value));
-  };
-  const corpusSel = $('#corpus-select');
-  const typeSel = $('#type-select');
-  corpusSel.addEventListener('change', () => { updateMulti(corpusSel, FILTER.corpora); updateURL(); renderList(); });
-  typeSel.addEventListener('change', () => { updateMulti(typeSel, FILTER.types); updateURL(); renderList(); });
+  // Custom multiselects (checkbox dropdowns)
+  initMultiSelect('corpora', FILTER.corpora, ['fr','uk','de']);
+  initMultiSelect('types', FILTER.types, ['letter','telegram','despatch','memorandum','circular','enclosure','report','note']);
   // Collapsible filters
   const panel = $('#filters-panel');
   const toggleBtn = $('#toggle-filters');
@@ -161,11 +155,11 @@ function attachControls() {
   document.addEventListener('click', () => { exportMenu.classList.remove('open'); exportBtn.setAttribute('aria-expanded','false'); });
   $('#reset').addEventListener('click', () => {
     FILTER.q = ''; $('#q').value='';
-    // select all options in both selects
-    Array.from(corpusSel.options).forEach(o => o.selected = true);
-    Array.from(typeSel.options).forEach(o => o.selected = true);
-    FILTER.corpora = new Set(Array.from(corpusSel.options).map(o=>o.value));
-    FILTER.types = new Set(Array.from(typeSel.options).map(o=>o.value));
+    // reset multi-selects
+    FILTER.corpora = new Set(['fr','uk','de']);
+    FILTER.types = new Set(['letter','telegram','despatch','memorandum','circular','enclosure','report','note']);
+    syncMultiSelect('corpora', FILTER.corpora);
+    syncMultiSelect('types', FILTER.types);
     if (FILTER.minYear !== null && FILTER.maxYear !== null) {
       setYearSlider(FILTER.minYear, FILTER.maxYear);
     } else { setYearSlider(null, null); }
@@ -289,12 +283,12 @@ function applyURL(){
   const corp = params.get('corpora');
   if (corp){
     FILTER.corpora = new Set(corp.split(',').filter(Boolean));
-    const sel = $('#corpus-select'); Array.from(sel.options).forEach(o => o.selected = FILTER.corpora.has(o.value));
+    syncMultiSelect('corpora', FILTER.corpora);
   }
   const types = params.get('types');
   if (types){
     FILTER.types = new Set(types.split(',').filter(Boolean));
-    const sel = $('#type-select'); Array.from(sel.options).forEach(o => o.selected = FILTER.types.has(o.value));
+    syncMultiSelect('types', FILTER.types);
   }
   const yf = params.get('yf'); if (yf){ FILTER.yearFrom = parseInt(yf,10); }
   const yt = params.get('yt'); if (yt){ FILTER.yearTo = parseInt(yt,10); }
@@ -306,6 +300,45 @@ function debounce(fn, wait){ let t; return (...args)=>{ clearTimeout(t); t=setTi
 
 // Reset via link
 function resetFiltersFromLink(){ const btn=$('#reset'); if (btn) btn.click(); return false; }
+
+// Multi-select helpers
+function initMultiSelect(kind, targetSet, allValues){
+  const root = document.getElementById(`ms-${kind}`);
+  if (!root) return;
+  const toggle = root.querySelector('.ms-toggle');
+  const menu = root.querySelector('.ms-menu');
+  const checkboxes = Array.from(menu.querySelectorAll('input[type="checkbox"]'));
+  // Open/close
+  toggle.addEventListener('click', (e)=>{
+    e.stopPropagation();
+    const open = !root.classList.contains('open');
+    document.querySelectorAll('.ms.open').forEach(m => m.classList.remove('open'));
+    if (open) root.classList.add('open'); else root.classList.remove('open');
+    toggle.setAttribute('aria-expanded', String(open));
+  });
+  document.addEventListener('click', ()=>{ root.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); });
+  // Change handling
+  checkboxes.forEach(cb => cb.addEventListener('change', ()=>{
+    targetSet.clear();
+    checkboxes.forEach(c => { if (c.checked) targetSet.add(c.value); });
+    updateURL(); renderList();
+  }));
+  // Actions
+  const onAction = (action)=>{
+    if (action==='all') { targetSet.clear(); allValues.forEach(v=>targetSet.add(v)); }
+    if (action==='none'){ targetSet.clear(); }
+    checkboxes.forEach(c => { c.checked = targetSet.has(c.value); });
+    updateURL(); renderList();
+  };
+  root.querySelectorAll('.ms-actions .btn-small').forEach(btn => {
+    btn.addEventListener('click', ()=> onAction(btn.getAttribute('data-action')));
+  });
+}
+
+function syncMultiSelect(kind, targetSet){
+  const root = document.getElementById(`ms-${kind}`); if (!root) return;
+  root.querySelectorAll('input[type="checkbox"]').forEach(cb => { cb.checked = targetSet.has(cb.value); });
+}
 
 // Summary counts + active filters -----------------------------------------
 function updateCounts(rows){
@@ -325,16 +358,18 @@ function renderActiveFilters(){
   if (!(FILTER.corpora.size === allCorpora.length)){
     wrap.appendChild(makeChip('corpora: ' + Array.from(FILTER.corpora).join(','), () => {
       // reset to all
-      const sel = $('#corpus-select'); Array.from(sel.options).forEach(o => o.selected = true);
-      FILTER.corpora = new Set(allCorpora); updateURL(); renderList();
+      FILTER.corpora = new Set(allCorpora);
+      syncMultiSelect('corpora', FILTER.corpora);
+      updateURL(); renderList();
     }));
   }
   // Types chip(s) — show when not all selected
   const allTypes = ['letter','telegram','despatch','memorandum','circular','enclosure','report','note'];
   if (!(FILTER.types.size === allTypes.length)){
     wrap.appendChild(makeChip('types: ' + Array.from(FILTER.types).join(','), () => {
-      const sel = $('#type-select'); Array.from(sel.options).forEach(o => o.selected = true);
-      FILTER.types = new Set(allTypes); updateURL(); renderList();
+      FILTER.types = new Set(allTypes);
+      syncMultiSelect('types', FILTER.types);
+      updateURL(); renderList();
     }));
   }
   // Year range chip

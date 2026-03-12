@@ -29,8 +29,13 @@ body {
 .controls label span { display: block; color: var(--fg-dim); font-size: 12px; margin-bottom: 4px; }
 .controls input[type="search"] { width: 100%; padding: 10px 12px; border-radius: 6px; border: 1px solid var(--muted); background: var(--bg2); color: var(--fg); }
 .selects { display: flex; flex-wrap: wrap; gap: 16px; }
-.selects select { padding: 8px 10px; border-radius: 6px; border: 1px solid var(--muted); background: var(--bg2); color: var(--fg); min-width: 180px; }
-.selects select[multiple] { min-height: 128px; }
+.ms { position: relative; display: inline-block; }
+.ms-toggle { min-width: 140px; }
+.ms-menu { position: absolute; top: 40px; left: 0; min-width: 240px; background: var(--bg2); border: 1px solid var(--muted); border-radius: 10px; box-shadow: var(--shadow); padding: 8px; display: none; z-index: 100; }
+.ms.open .ms-menu { display: block; }
+.ms-item { display: flex; align-items: center; gap: 8px; padding: 6px 4px; font-size: 13px; }
+.ms-item input { width: 16px; height: 16px; }
+.ms-actions { display: flex; gap: 8px; padding: 6px 4px 0; border-top: 1px dashed var(--muted); margin-top: 6px; }
 .range-row { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
 .range-slider { width: 360px; position: relative; height: 36px; }
 .range-slider input[type="range"] { position: absolute; left: 0; right: 0; pointer-events: none; -webkit-appearance: none; appearance: none; background: none; height: 36px; margin: 0; }

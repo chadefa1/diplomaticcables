@@ -36,27 +36,35 @@
         </div>
         <div id="filters-panel" class="filters-panel" role="region" aria-label="Filter panel">
           <div class="selects" role="group" aria-label="Corpus and type filters">
-            <label>
-              <span>Corpus</span>
-              <select id="corpus-select" multiple aria-label="Select one or more corpora">
-                <option value="fr" selected>FR</option>
-                <option value="uk" selected>UK</option>
-                <option value="de" selected>DE</option>
-              </select>
-            </label>
-            <label>
-              <span>Type</span>
-              <select id="type-select" multiple aria-label="Select one or more document types">
-                <option selected>letter</option>
-                <option selected>telegram</option>
-                <option selected>despatch</option>
-                <option selected>memorandum</option>
-                <option selected>circular</option>
-                <option selected>enclosure</option>
-                <option selected>report</option>
-                <option selected>note</option>
-              </select>
-            </label>
+            <div class="ms" id="ms-corpora">
+              <button class="btn secondary ms-toggle" aria-haspopup="true" aria-expanded="false">Corpora ▾</button>
+              <div class="ms-menu" role="menu" aria-label="Select corpora">
+                <label class="ms-item"><input type="checkbox" value="fr" checked /> France (FR)</label>
+                <label class="ms-item"><input type="checkbox" value="uk" checked /> United Kingdom (UK)</label>
+                <label class="ms-item"><input type="checkbox" value="de" checked /> Germany (DE)</label>
+                <div class="ms-actions">
+                  <button type="button" class="btn-small" data-ms="corpora" data-action="all">Select all</button>
+                  <button type="button" class="btn-small" data-ms="corpora" data-action="none">Clear</button>
+                </div>
+              </div>
+            </div>
+            <div class="ms" id="ms-types">
+              <button class="btn secondary ms-toggle" aria-haspopup="true" aria-expanded="false">Types ▾</button>
+              <div class="ms-menu" role="menu" aria-label="Select document types">
+                <label class="ms-item"><input type="checkbox" value="letter" checked /> letter</label>
+                <label class="ms-item"><input type="checkbox" value="telegram" checked /> telegram</label>
+                <label class="ms-item"><input type="checkbox" value="despatch" checked /> despatch</label>
+                <label class="ms-item"><input type="checkbox" value="memorandum" checked /> memorandum</label>
+                <label class="ms-item"><input type="checkbox" value="circular" checked /> circular</label>
+                <label class="ms-item"><input type="checkbox" value="enclosure" checked /> enclosure</label>
+                <label class="ms-item"><input type="checkbox" value="report" checked /> report</label>
+                <label class="ms-item"><input type="checkbox" value="note" checked /> note</label>
+                <div class="ms-actions">
+                  <button type="button" class="btn-small" data-ms="types" data-action="all">Select all</button>
+                  <button type="button" class="btn-small" data-ms="types" data-action="none">Clear</button>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="range-row" role="group" aria-label="Year range">
             <div class="range-slider" aria-label="Year range slider">
