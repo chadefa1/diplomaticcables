@@ -100,6 +100,9 @@ function renderList() {
     tr.addEventListener('click', () => renderDetail(r));
     tbody.appendChild(tr);
   });
+  // Update summary counts and active filters chips
+  updateCounts(rows);
+  renderActiveFilters();
 }
 
 function truthy(v){ return v===1 || v==='1' || v===true; }
@@ -301,6 +304,56 @@ function debounce(fn, wait){ let t; return (...args)=>{ clearTimeout(t); t=setTi
 
 // Reset via link
 function resetFiltersFromLink(){ const btn=$('#reset'); if (btn) btn.click(); return false; }
+
+// Summary counts + active filters -----------------------------------------
+function updateCounts(rows){
+  const counts = {fr:0, uk:0, de:0};
+  rows.forEach(r => { if (counts[r.corpus] !== undefined) counts[r.corpus]++; });
+  const elFr = $('#count-fr'); if (elFr) elFr.textContent = counts.fr;
+  const elUk = $('#count-uk'); if (elUk) elUk.textContent = counts.uk;
+  const elDe = $('#count-de'); if (elDe) elDe.textContent = counts.de;
+}
+
+function renderActiveFilters(){
+  const wrap = $('#active-filters'); if (!wrap) return; wrap.innerHTML='';
+  // Query chip
+  if (FILTER.q){ wrap.appendChild(makeChip(`q: ${FILTER.q}`, () => { FILTER.q=''; $('#q').value=''; updateURL(); renderList(); })); }
+  // Corpora chip(s) — show when not all selected
+  const allCorpora = ['fr','uk','de'];
+  if (!(FILTER.corpora.size === allCorpora.length)){
+    wrap.appendChild(makeChip('corpora: ' + Array.from(FILTER.corpora).join(','), () => {
+      // reset to all
+      const sel = $('#corpus-select'); Array.from(sel.options).forEach(o => o.selected = true);
+      FILTER.corpora = new Set(allCorpora); updateURL(); renderList();
+    }));
+  }
+  // Types chip(s) — show when not all selected
+  const allTypes = ['letter','telegram','despatch','memorandum','circular','enclosure','report','note'];
+  if (!(FILTER.types.size === allTypes.length)){
+    wrap.appendChild(makeChip('types: ' + Array.from(FILTER.types).join(','), () => {
+      const sel = $('#type-select'); Array.from(sel.options).forEach(o => o.selected = true);
+      FILTER.types = new Set(allTypes); updateURL(); renderList();
+    }));
+  }
+  // Year range chip
+  if (FILTER.minYear!==null && FILTER.maxYear!==null){
+    const from = FILTER.yearFrom ?? FILTER.minYear;
+    const to = FILTER.yearTo ?? FILTER.maxYear;
+    if (!(from===FILTER.minYear && to===FILTER.maxYear)){
+      wrap.appendChild(makeChip(`year: ${from}–${to}`, () => {
+        setYearSlider(FILTER.minYear, FILTER.maxYear); updateURL(); renderList();
+      }));
+    }
+  }
+}
+
+function makeChip(text, onClear){
+  const chip = el('span', {class:'chip'}, [text+' ']);
+  const btn = el('button', {title:'Clear'}, ['×']);
+  btn.addEventListener('click', (e)=>{ e.stopPropagation(); onClear && onClear(); });
+  chip.appendChild(btn);
+  return chip;
+}
 
 // Badges
 function badgeForCorpus(c){

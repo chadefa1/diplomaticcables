@@ -41,6 +41,15 @@ body {
 .hint { color: var(--fg-dim); font-size: 12px; margin-top: -6px; margin-bottom: 8px; }
 .content { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .list-pane { background: var(--bg2); border: 1px solid var(--muted); border-radius: 8px; overflow: hidden; }
+.summary-bar { display: flex; align-items: center; justify-content: space-between; padding: 8px 10px; border-bottom: 1px dashed var(--muted); gap: 10px; }
+.summary-bar .pills { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.summary-pill { font-size: 12px; padding: 4px 8px; border-radius: 999px; border: 1px solid var(--muted); background: var(--chip); }
+.summary-pill.fr { background: #e7eefc; border-color: #c6d8ff; color: #1a3f93; }
+.summary-pill.uk { background: #fde8e8; border-color: #f8c9c9; color: #8a1f1f; }
+.summary-pill.de { background: #e6f6ec; border-color: #c3ebd1; color: #155e2f; }
+.active-filters { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 8px; background: #f2f6ff; border: 1px solid var(--muted); border-radius: 999px; font-size: 12px; color: #2c3d67; }
+.chip button { background: transparent; border: none; cursor: pointer; font-size: 14px; line-height: 1; color: #4f5b78; }
 .list-meta { padding: 8px 10px; border-bottom: 1px solid var(--muted); display: flex; align-items: center; justify-content: space-between; color: var(--fg-dim); font-size: 12px; gap: 10px; }
 .list-meta .actions { display: flex; gap: 8px; }
 .btn { background: var(--chip); color: var(--fg); border: 1px solid var(--muted); padding: 6px 10px; border-radius: 6px; cursor: pointer; font-size: 12px; }
@@ -59,6 +68,10 @@ table.results tbody tr:hover { background: #f2f8ff; }
 .badge.type { background: #fff7e5; border-color: #ffe2a8; color: #7a4a00; }
 .empty { color: var(--fg-dim); padding: 12px; }
 .detail-pane { background: var(--bg2); border: 1px solid var(--muted); border-radius: 8px; padding: 12px; min-height: 240px; }
+.detail-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.detail-title { font-weight: 600; font-size: 16px; color: #0c1222; }
+.detail-actions { display: flex; gap: 8px; }
+.btn-small { background: var(--chip); color: var(--fg); border: 1px solid var(--muted); padding: 4px 8px; border-radius: 6px; cursor: pointer; font-size: 12px; }
 .placeholder { color: var(--fg-dim); padding: 10px; }
 .kv { display: grid; grid-template-columns: 120px 1fr; gap: 6px 12px; font-size: 13px; margin-bottom: 10px; }
 .labels { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
