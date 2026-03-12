@@ -16,11 +16,12 @@
         color: #fff; text-align: center; background: #0b1022;
       }
       .hero::before {
-        content: ""; position: absolute; inset: 0; background: url('assets/topSecret.png') center/cover no-repeat; opacity: 0.32; filter: blur(0.5px);
+        content: ""; position: absolute; inset: 0; background: url('assets/topSecret.png') center/cover no-repeat; opacity: 0.22; filter: blur(0.5px);
       }
-      .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,16,34,0.55), rgba(11,16,34,0.75)); }
+      .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,16,34,0.20), rgba(11,16,34,0.40)); }
       .hero .inner { position: relative; max-width: 900px; padding: 48px 24px; }
-      .hero h1 { margin: 0 0 10px 0; font-size: 36px; letter-spacing: 0.4px; }
+      .hero h1 { margin: 0 0 8px 0; font-size: 40px; letter-spacing: 0.3px; }
+      .hero p.subtitle { margin: 0 0 14px 0; font-size: 18px; opacity: 0.98; }
       .hero p { margin: 6px 0 18px 0; font-size: 16px; opacity: 0.95; }
       .cta { display: inline-flex; gap: 12px; }
       .cta a { background: #1155cc; color: #fff; padding: 10px 14px; border-radius: 8px; text-decoration: none; font-weight: 600; border: 1px solid #0f4ab0; }
@@ -43,7 +44,8 @@
 
     <section class="hero">
       <div class="inner">
-        <h1>Explore diplomatic cables across countries and years</h1>
+        <h1>Diplomatic Archives</h1>
+        <p class="subtitle">Explore diplomatic cables across countries and years</p>
         <p>Edited diplomatic documents from France, the United Kingdom, and Germany — unified, searchable, and ready to explore. Filter by corpus and document type, view “from → to”, and export your results.</p>
         <div class="cta">
           <a href="browse.html">Browse Data</a>
